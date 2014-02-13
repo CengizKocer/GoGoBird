@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C235F46A18AC9ACF0036D8D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C235F46918AC9ACF0036D8D2 /* Foundation.framework */; };
+		C235F46C18AC9ACF0036D8D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C235F46B18AC9ACF0036D8D2 /* CoreGraphics.framework */; };
+		C235F46E18AC9ACF0036D8D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C235F46D18AC9ACF0036D8D2 /* UIKit.framework */; };
+		C235F47418AC9ACF0036D8D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C235F47218AC9ACF0036D8D2 /* InfoPlist.strings */; };
+		C235F47618AC9ACF0036D8D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C235F47518AC9ACF0036D8D2 /* main.m */; };
+		C235F47A18AC9ACF0036D8D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C235F47918AC9ACF0036D8D2 /* AppDelegate.m */; };
+		C235F47C18AC9ACF0036D8D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C235F47B18AC9ACF0036D8D2 /* Images.xcassets */; };
+		C235F48318AC9ACF0036D8D2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C235F48218AC9ACF0036D8D2 /* XCTest.framework */; };
+		C235F48418AC9ACF0036D8D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C235F46918AC9ACF0036D8D2 /* Foundation.framework */; };
+		C235F48518AC9ACF0036D8D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C235F46D18AC9ACF0036D8D2 /* UIKit.framework */; };
+		C235F48D18AC9ACF0036D8D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C235F48B18AC9ACF0036D8D2 /* InfoPlist.strings */; };
+		C235F48F18AC9ACF0036D8D2 /* GoGoBirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C235F48E18AC9ACF0036D8D2 /* GoGoBirdTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C235F48618AC9ACF0036D8D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C235F45E18AC9ACF0036D8D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C235F46518AC9ACF0036D8D2;
+			remoteInfo = GoGoBird;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C235F46618AC9ACF0036D8D2 /* GoGoBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoGoBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C235F46918AC9ACF0036D8D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C235F46B18AC9ACF0036D8D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C235F46D18AC9ACF0036D8D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C235F47118AC9ACF0036D8D2 /* GoGoBird-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoGoBird-Info.plist"; sourceTree = "<group>"; };
+		C235F47318AC9ACF0036D8D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C235F47518AC9ACF0036D8D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C235F47718AC9ACF0036D8D2 /* GoGoBird-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoGoBird-Prefix.pch"; sourceTree = "<group>"; };
+		C235F47818AC9ACF0036D8D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C235F47918AC9ACF0036D8D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C235F47B18AC9ACF0036D8D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C235F48118AC9ACF0036D8D2 /* GoGoBirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoGoBirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C235F48218AC9ACF0036D8D2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C235F48A18AC9ACF0036D8D2 /* GoGoBirdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoGoBirdTests-Info.plist"; sourceTree = "<group>"; };
+		C235F48C18AC9ACF0036D8D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C235F48E18AC9ACF0036D8D2 /* GoGoBirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoGoBirdTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C235F46318AC9ACF0036D8D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C235F46C18AC9ACF0036D8D2 /* CoreGraphics.framework in Frameworks */,
+				C235F46E18AC9ACF0036D8D2 /* UIKit.framework in Frameworks */,
+				C235F46A18AC9ACF0036D8D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C235F47E18AC9ACF0036D8D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C235F48318AC9ACF0036D8D2 /* XCTest.framework in Frameworks */,
+				C235F48518AC9ACF0036D8D2 /* UIKit.framework in Frameworks */,
+				C235F48418AC9ACF0036D8D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C235F45D18AC9ACF0036D8D2 = {
+			isa = PBXGroup;
+			children = (
+				C235F46F18AC9ACF0036D8D2 /* GoGoBird */,
+				C235F48818AC9ACF0036D8D2 /* GoGoBirdTests */,
+				C235F46818AC9ACF0036D8D2 /* Frameworks */,
+				C235F46718AC9ACF0036D8D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C235F46718AC9ACF0036D8D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C235F46618AC9ACF0036D8D2 /* GoGoBird.app */,
+				C235F48118AC9ACF0036D8D2 /* GoGoBirdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C235F46818AC9ACF0036D8D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C235F46918AC9ACF0036D8D2 /* Foundation.framework */,
+				C235F46B18AC9ACF0036D8D2 /* CoreGraphics.framework */,
+				C235F46D18AC9ACF0036D8D2 /* UIKit.framework */,
+				C235F48218AC9ACF0036D8D2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C235F46F18AC9ACF0036D8D2 /* GoGoBird */ = {
+			isa = PBXGroup;
+			children = (
+				C235F47818AC9ACF0036D8D2 /* AppDelegate.h */,
+				C235F47918AC9ACF0036D8D2 /* AppDelegate.m */,
+				C235F47B18AC9ACF0036D8D2 /* Images.xcassets */,
+				C235F47018AC9ACF0036D8D2 /* Supporting Files */,
+			);
+			path = GoGoBird;
+			sourceTree = "<group>";
+		};
+		C235F47018AC9ACF0036D8D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C235F47118AC9ACF0036D8D2 /* GoGoBird-Info.plist */,
+				C235F47218AC9ACF0036D8D2 /* InfoPlist.strings */,
+				C235F47518AC9ACF0036D8D2 /* main.m */,
+				C235F47718AC9ACF0036D8D2 /* GoGoBird-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C235F48818AC9ACF0036D8D2 /* GoGoBirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				C235F48E18AC9ACF0036D8D2 /* GoGoBirdTests.m */,
+				C235F48918AC9ACF0036D8D2 /* Supporting Files */,
+			);
+			path = GoGoBirdTests;
+			sourceTree = "<group>";
+		};
+		C235F48918AC9ACF0036D8D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C235F48A18AC9ACF0036D8D2 /* GoGoBirdTests-Info.plist */,
+				C235F48B18AC9ACF0036D8D2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C235F46518AC9ACF0036D8D2 /* GoGoBird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C235F49218AC9ACF0036D8D2 /* Build configuration list for PBXNativeTarget "GoGoBird" */;
+			buildPhases = (
+				C235F46218AC9ACF0036D8D2 /* Sources */,
+				C235F46318AC9ACF0036D8D2 /* Frameworks */,
+				C235F46418AC9ACF0036D8D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoGoBird;
+			productName = GoGoBird;
+			productReference = C235F46618AC9ACF0036D8D2 /* GoGoBird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C235F48018AC9ACF0036D8D2 /* GoGoBirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C235F49518AC9ACF0036D8D2 /* Build configuration list for PBXNativeTarget "GoGoBirdTests" */;
+			buildPhases = (
+				C235F47D18AC9ACF0036D8D2 /* Sources */,
+				C235F47E18AC9ACF0036D8D2 /* Frameworks */,
+				C235F47F18AC9ACF0036D8D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C235F48718AC9ACF0036D8D2 /* PBXTargetDependency */,
+			);
+			name = GoGoBirdTests;
+			productName = GoGoBirdTests;
+			productReference = C235F48118AC9ACF0036D8D2 /* GoGoBirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C235F45E18AC9ACF0036D8D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = studio76;
+				TargetAttributes = {
+					C235F48018AC9ACF0036D8D2 = {
+						TestTargetID = C235F46518AC9ACF0036D8D2;
+					};
+				};
+			};
+			buildConfigurationList = C235F46118AC9ACF0036D8D2 /* Build configuration list for PBXProject "GoGoBird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C235F45D18AC9ACF0036D8D2;
+			productRefGroup = C235F46718AC9ACF0036D8D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C235F46518AC9ACF0036D8D2 /* GoGoBird */,
+				C235F48018AC9ACF0036D8D2 /* GoGoBirdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C235F46418AC9ACF0036D8D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C235F47418AC9ACF0036D8D2 /* InfoPlist.strings in Resources */,
+				C235F47C18AC9ACF0036D8D2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C235F47F18AC9ACF0036D8D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C235F48D18AC9ACF0036D8D2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C235F46218AC9ACF0036D8D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C235F47A18AC9ACF0036D8D2 /* AppDelegate.m in Sources */,
+				C235F47618AC9ACF0036D8D2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C235F47D18AC9ACF0036D8D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C235F48F18AC9ACF0036D8D2 /* GoGoBirdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C235F48718AC9ACF0036D8D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C235F46518AC9ACF0036D8D2 /* GoGoBird */;
+			targetProxy = C235F48618AC9ACF0036D8D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C235F47218AC9ACF0036D8D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C235F47318AC9ACF0036D8D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C235F48B18AC9ACF0036D8D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C235F48C18AC9ACF0036D8D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C235F49018AC9ACF0036D8D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C235F49118AC9ACF0036D8D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C235F49318AC9ACF0036D8D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoGoBird/GoGoBird-Prefix.pch";
+				INFOPLIST_FILE = "GoGoBird/GoGoBird-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C235F49418AC9ACF0036D8D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoGoBird/GoGoBird-Prefix.pch";
+				INFOPLIST_FILE = "GoGoBird/GoGoBird-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C235F49618AC9ACF0036D8D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoGoBird.app/GoGoBird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoGoBird/GoGoBird-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GoGoBirdTests/GoGoBirdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C235F49718AC9ACF0036D8D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoGoBird.app/GoGoBird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoGoBird/GoGoBird-Prefix.pch";
+				INFOPLIST_FILE = "GoGoBirdTests/GoGoBirdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C235F46118AC9ACF0036D8D2 /* Build configuration list for PBXProject "GoGoBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C235F49018AC9ACF0036D8D2 /* Debug */,
+				C235F49118AC9ACF0036D8D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C235F49218AC9ACF0036D8D2 /* Build configuration list for PBXNativeTarget "GoGoBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C235F49318AC9ACF0036D8D2 /* Debug */,
+				C235F49418AC9ACF0036D8D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C235F49518AC9ACF0036D8D2 /* Build configuration list for PBXNativeTarget "GoGoBirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C235F49618AC9ACF0036D8D2 /* Debug */,
+				C235F49718AC9ACF0036D8D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C235F45E18AC9ACF0036D8D2 /* Project object */;
+}
